@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f4f8;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left {
+  width: 30%;
+  padding: 30px 20px;
+  background: linear-gradient(to bottom right, #00b4db, hsl(347, 100%, 35%));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 70%;
+  padding: 40px 30px;
+  background: #ffffff;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 3px solid white;
+}
+
+h1 {
+  font-size: 36px;
+  color: #222;
+  margin-bottom: 50px;
+  margin-top:10px;
+  
+}
+
+h2 {
+  font-size: 22px;
+  color: #005f73;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  
+}
+
+h2 .icon {
+  margin-right: 10px;
+  color: #0083b0;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-right: 100px;
+  
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+.python{
+  list-style-type: none;
+  padding-left: 0;
+  margin-right: 210px;
+
+}
+.lang{
+  margin-right:200px ;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 25px 0 10px;
+  color: #fff;
+  text-align:center;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+
+.contact {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.contact p {
+  margin: 8px 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+       
